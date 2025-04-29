@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GEM MOTORS - Cars for Sale</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-blue-700">GEM MOTORS</h1>
+      <nav class="space-x-6 text-gray-600">
+        <a href="#home" class="hover:text-blue-700 transition">Home</a>
+        <a href="#inventory" class="hover:text-blue-700 transition">Inventory</a>
+        <a href="#contact" class="hover:text-blue-700 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="container mx-auto px-6 py-16 text-center">
+    <h2 class="text-4xl font-extrabold mb-4">Find Your Dream Car at GEM MOTORS</h2>
+    <p class="text-lg mb-8 max-w-xl mx-auto">Explore our wide selection of quality cars at unbeatable prices. Your perfect car is just a click away.</p>
+    <a href="#inventory" class="inline-block bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">Browse Inventory</a>
+  </section>
+
+  <section id="inventory" class="container mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-10 text-center text-blue-700">Available Cars</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <!-- Car 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+        <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200" alt="Red Sports Car" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">2022 Red Sports Car</h4>
+          <p class="text-gray-600 mb-4">A sleek and powerful sports car with advanced features and stunning design.</p>
+          <p class="text-blue-700 font-bold text-lg">$45,000</p>
+        </div>
+      </div>
+      <!-- Car 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+        <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200" alt="Luxury Sedan" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">2021 Luxury Sedan</h4>
+          <p class="text-gray-600 mb-4">Comfort and elegance combined in this premium sedan with top safety ratings.</p>
+          <p class="text-blue-700 font-bold text-lg">$38,500</p>
+        </div>
+      </div>
+      <!-- Car 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+        <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200" alt="Electric Car" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">2023 Electric Car</h4>
+          <p class="text-gray-600 mb-4">Eco-friendly and efficient electric vehicle with cutting-edge technology.</p>
+          <p class="text-blue-700 font-bold text-lg">$52,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-white shadow-inner mt-16">
+    <div class="container mx-auto px-6 py-8 text-center text-gray-600">
+      <p class="mb-4">Contact us at <a href="mailto:info@gemmotors.com" class="text-blue-700 hover:underline">info@gemmotors.com</a> or call <a href="tel:+1234567890" class="text-blue-700 hover:underline">+1 (234) 567-890</a></p>
+      <div class="space-x-6 text-xl">
+        <a href="#" aria-label="Facebook" class="hover:text-blue-700 transition"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter" class="hover:text-blue-700 transition"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram" class="hover:text-blue-700 transition"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="mt-6 text-sm">&copy; 2024 GEM MOTORS. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
